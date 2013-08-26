@@ -8,6 +8,7 @@ gem 'rails', '3.2.12'
 gem 'pg'
 
 gem 'flatui-rails'
+gem "figaro"
 
 
 # Gems used only for assets and not required
