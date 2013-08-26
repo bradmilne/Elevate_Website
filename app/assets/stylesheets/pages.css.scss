@@ -272,3 +272,211 @@ footer {
 	color: #fff;
 	vertical-align: middle;
 }
+
+.platform_header {
+	background: #25383C;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.platform_header h1 {
+  font-size: 28px;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.platform_header p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.platform_step {
+	min-height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.step1_title {
+	text-align: left;
+}
+
+.step1_title h2 {
+		line-height: 25px;
+		padding-top: 25px;
+		color: #33A1C9;
+	  vertical-align: middle;
+	  font-size: 32px;
+}
+
+.step1_background {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.step1 {
+	background-color: #33A1C9;
+	color: #fff;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 10px 5px 0px;
+	width: 25px;
+	height: 25px;
+	display: block;
+	float: left;
+}
+
+.title_align {
+	vertical-align: middle;
+}
+
+.step_description {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.step_description p {
+	font-size: 14px;
+	line-height: 1.4em;
+}
+
+.step2_background {
+	background: #f5f5f5;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.step2 {
+	background-color: red;
+	color: #fff;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 10px 5px 0px;
+	width: 25px;
+	height: 25px;
+	display: block;
+	float: left;
+}
+
+.step2_title {
+	vertical-align: middle;
+}
+
+.step2_title h2 {
+		line-height: 25px;
+		padding-top: 25px;
+		color: red;
+	  vertical-align: middle;
+	  font-size: 32px;
+}
+
+.example_programs {
+	text_align:center;
+}
+
+.program img {
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.program h2 {
+	color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 26px;
+	margin-top: 40px;
+}
+
+.program p {
+	color: #666;
+	font-weight: 100;
+	line-height: 1.8em;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.benefits {
+	min-height: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.side_benefit {
+	padding-right: 40px;
+}
+.side-benefit h2 {
+	color: #000;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 26px;
+	margin-top: 40px;
+}
+
+.side_benefit p {
+	color: #000;
+	font-weight: 100;
+	line-height: 1.8em;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.benefits_checklist {
+  margin-top: 5px;
+}
+
+.benefits_checklist h2 {
+  color: #555;
+	font-weight: 100;
+	line-height: 1.17em;
+	font-size: 22px;
+}
+
+.benefits_checklist ul {
+  list-style: url('green_checkmark.png');
+  margin-top: 40px;
+}
+
+.benefits_checklist li p {
+  font-size: 16px;
+	margin-top: 5px;
+}
+
+.contact_area {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contact_form {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	background: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.form_label {
+	font-size: 18px;
+}
+.btn_space {
+	margin-top: 10px;
+}
+
+.alert_mods {
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	}

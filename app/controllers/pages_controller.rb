@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def platform
   end
+
+  def program
+  end
+
 end

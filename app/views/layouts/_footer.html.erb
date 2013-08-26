@@ -5,34 +5,33 @@
 	    <div class="hiring span4" style="width: 30%;">
 		  <h3>We're Hiring!</h3>
   	      <p>Elevate is always looking for talented people to join our growing team. Send us an email with a bit about yourself and let's talk.</p>
-	      <p><button type="button" class='btn btn-large btn-warning'>Contact Us</button></p>
+        <p><%= button_to "Contact Us", new_contact_path, :class => "btn btn-large btn-warning", :method => :get %></p>
 		</div>
 					
 		<div class="quick_links span3" style="width: 15%;">
 		  <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>How it Works</li></a>
-            <a href="#"><li>About Elevate</li></a>
-            <a href="#"><li>Contact Us</li></a>
+            <li><%= link_to 'Home', root_path %></li>
+            <li><%= link_to 'Our Platform', platform_path %></li>
+            <li><%= link_to 'Programs', programs_path %></li>
+            <li><%= link_to 'Contact us', new_contact_path %></li>
           </ul>
 		</div>
 					
 		<div class=" quick_links span3" style="width: 20%;">
 		  <ul>
-            <a href="#"><li>Schedule Demo</li></a>
-            <a href="#"><li>Blog</li></a>
-            <a href="#"><li>Client Examples</li></a>
-            <a href="#"><li>Login</li></a>
+            <a href="#"><li><%= link_to 'Schedule Demo', new_contact_path %></li></a>
+            <a href="http://blog.getelevate.com"><li>Blog</li></a>
+            <a href="http://app.getelevate.com/login"><li>Login</li></a>
           </ul>
 		</div>
 		
 		<div class="follow_us span3" style="width: 25%;">
 		  <h3>Follow Us</h3>
   	      <ul>
-  	        <li><%= image_tag 'google+.png' %></li>
-  	        <li><%= image_tag 'linkedin.png' %></li>
-  	        <li><%= image_tag 'twitter.png' %></li>
-  	        <li><%= image_tag 'facebook.png' %></li>
+  	        <li><%= link_to image_tag('google+.png'), "https://plus.google.com/101056390946961113976/posts" %></li>
+  	        <li><%= link_to image_tag('linkedin.png'), "http://www.linkedin.com/groups?home=&gid=5025079&trk=anet_ug_hm" %></li>
+  	        <li><%= link_to image_tag('twitter.png'), "http://www.twitter.com/getelevate" %></li>
+  	        <li><%= link_to image_tag('facebook.png'), "https://www.facebook.com/getelevate" %></li>
 		  </ul>
 		</div>				
 	  </div>

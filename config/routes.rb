@@ -1,7 +1,12 @@
 Elevate::Application.routes.draw do
+ 
   root :to =>  "pages#home"
 
   match '/platform' => 'pages#platform', :via => [:get]
+  match '/programs' => 'pages#program', :via => [:get]
+ 
+
+ resources :contacts, only: [:new, :create]
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
