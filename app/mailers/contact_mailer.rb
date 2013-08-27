@@ -6,6 +6,6 @@ class ContactMailer < ActionMailer::Base
   	@name = name
   	@company = company
   	@email = email
-  	mail(subject: "New Contact Form")
+  	mail(subject: "New Contact")
   end
 end
