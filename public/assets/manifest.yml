@@ -27,6 +27,8 @@ clients2.png: clients2-7a624b7dba5ce4fbfcac04478a8ebc92.png
 clients2/index.png: clients2-7a624b7dba5ce4fbfcac04478a8ebc92.png
 clipboard.png: clipboard-e95b34cf662ea12f093b5cca9eb736aa.png
 clipboard/index.png: clipboard-e95b34cf662ea12f093b5cca9eb736aa.png
+elevate_favicon.ico: elevate_favicon-85d37c89a50398d92bb8e1ab5d404ad0.ico
+elevate_favicon/index.ico: elevate_favicon-85d37c89a50398d92bb8e1ab5d404ad0.ico
 elevate_logo.png: elevate_logo-8913205b81ab6a96802e3e2627b4398d.png
 elevate_logo/index.png: elevate_logo-8913205b81ab6a96802e3e2627b4398d.png
 elevate_logo_white.png: elevate_logo_white-76fffcc6b90c7393e98586ebbdc90a85.png
@@ -73,8 +75,8 @@ wavegrid.png: wavegrid-75655454a9ab86b5734217d5a492f623.png
 wavegrid/index.png: wavegrid-75655454a9ab86b5734217d5a492f623.png
 application.js: application-f26b6c736119723697a649972f9e7315.js
 application/index.js: application-f26b6c736119723697a649972f9e7315.js
-application.css: application-deb6c4f111ae590836f535f4940c3884.css
-application/index.css: application-deb6c4f111ae590836f535f4940c3884.css
+application.css: application-0bcca0d7e9e772da8650a3ecd949b67e.css
+application/index.css: application-0bcca0d7e9e772da8650a3ecd949b67e.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 Flat-UI-Icons-16.dev.svg: Flat-UI-Icons-16.dev-baf0dd9e41c8e88de649dfad25c6d0f6.svg
