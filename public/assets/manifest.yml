@@ -41,8 +41,12 @@ google+.png: google+-13ccf669b8333aed43ebf82024af74e2.png
 google+/index.png: google+-13ccf669b8333aed43ebf82024af74e2.png
 green_checkmark.png: green_checkmark-d608025ff0173458c94683b2240ed217.png
 green_checkmark/index.png: green_checkmark-d608025ff0173458c94683b2240ed217.png
+hand_phone.png: hand_phone-2356c482556d58d8c20ab80e0bd88713.png
+hand_phone/index.png: hand_phone-2356c482556d58d8c20ab80e0bd88713.png
 hero_image.png: hero_image-0c1da15f485851c8b927105924958a91.png
 hero_image/index.png: hero_image-0c1da15f485851c8b927105924958a91.png
+hero_phone.png: hero_phone-7cf0a77614dea00abc7f54c54a350885.png
+hero_phone/index.png: hero_phone-7cf0a77614dea00abc7f54c54a350885.png
 how_it_works.png: how_it_works-7557e3b17ec8a8045ebb5fa5aef01386.png
 how_it_works/index.png: how_it_works-7557e3b17ec8a8045ebb5fa5aef01386.png
 large_iphone.png: large_iphone-700d5c122b65ec43c9cea991850f878c.png
@@ -51,6 +55,8 @@ large_iphone_elevate.png: large_iphone_elevate-d3b183cb45ff7ee1c84f196c357a4f75.
 large_iphone_elevate/index.png: large_iphone_elevate-d3b183cb45ff7ee1c84f196c357a4f75.png
 linkedin.png: linkedin-f2f12c54fcd8c1921ee1d89cd5b3af9e.png
 linkedin/index.png: linkedin-f2f12c54fcd8c1921ee1d89cd5b3af9e.png
+mobile_optimized.png: mobile_optimized-076c7955397385c9132ffe0cc4a48498.png
+mobile_optimized/index.png: mobile_optimized-076c7955397385c9132ffe0cc4a48498.png
 more_sharing.png: more_sharing-67dcf775a022a2654465812cc5117afb.png
 more_sharing/index.png: more_sharing-67dcf775a022a2654465812cc5117afb.png
 newsletter_1.png: newsletter_1-dff0f081786de77dc1e765eaf503e74f.png
