@@ -10,6 +10,7 @@ gem 'pg'
 gem 'flatui-rails'
 gem "figaro"
 gem 'unicorn'
+gem 'bloggy'
 
 
 # Gems used only for assets and not required
