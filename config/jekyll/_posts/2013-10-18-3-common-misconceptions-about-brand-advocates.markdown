@@ -38,7 +38,7 @@ title: 3 Common Misconceptions About Brand Advocates
 <p><b>&#35;3 Brand advocates don&#39;t fit with our marketing strategy</b></p>
 <br />
 
-<p>Every digital marketing strategy has similar goals - drive traffic, drive leads, increase awareness and increase engagement. I haven&#39;t run into too many that deviate too far from the playbook. Brand advocates dovetail with just about any marketing strategy because it’s really just an extension of your distribution strategy. Content marketing? Have brand advocates help distribute your content. Drive leads? Have brand advocates drive traffic to your lead capture forms. Need more social media engagement? Send your digital content to brand advocates so it’s easy for them to like on Facebook or retweet on Twitter.</p>
+<p>Every digital marketing strategy has similar goals - drive traffic, drive leads, increase awareness and increase engagement. I haven&#39;t run into too many that deviate too far from the playbook. Brand advocates dovetail with just about any marketing strategy because it&#39;s really just an extension of your distribution strategy. Content marketing? Have brand advocates help distribute your content. Drive leads? Have brand advocates drive traffic to your lead capture forms. Need more social media engagement? Send your digital content to brand advocates so it&#39;s easy for them to like on Facebook or retweet on Twitter.</p>
 <br />
 
 <p>The point is that marketing boils down to content (ads, content, creative, contests, etc.) and distribution (media buying, social media outreach, PR, etc.) Brand advocates are an effective low cost solution that greatly increases distribution without putting you over budget.</p>
