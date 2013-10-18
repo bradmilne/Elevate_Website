@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 3 Common Misconceptions About Brand Advocates
 ---
-<p style="text-align: center;"><img src="images/truth.jpg" /></p>
+<p style="text-align: center;"><img src="http://www.getelevate.com/blog/images/truth.jpg" /></p>
 <br />
 <p>With brand advocacy gaining prominence as a <a href="http://www.mackcollier.com/ibm-study-cmos-look-to-focus-on-social-media-connecting-with-brand-advocates/">priority for CMOs</a>, more and more marketers are being tasked with getting a brand advocate program up and running for their company or division. However as a new concept, it&#39;s not that easy to just &#39;set it up.&#39; The truth is that there aren&#39;t that many blueprints or public examples of successful programs that a marketer can just copy.</p>
 <br />

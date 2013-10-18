@@ -4,7 +4,7 @@ published: true
 title: 3 B2B Content Marketing Turbochargers You Should Activate
 ---
 <br />
-<p style="text-align: center;"><img src="images/activate_influencers.jpg" /></p>
+<p style="text-align: center;"><img src="http://www.getelevat.com/blog/images/activate_influencers.jpg" /></p>
 <br />
 
 <p>Creating quality B2B content for your audience is <a href="http://blog.hubspot.com/blog/tabid/6307/bid/34080/Why-Marketers-Need-to-Rise-Above-the-Deluge-of-Crappy-Content.aspx">hard enough but necessary</a> to execute a successful content marketing strategy. In addition to the difficulty of producing high quality content, there is also the need to <a href="http://contentmarketinginstitute.com/2011/05/whats-the-right-frequency-for-blog-posts/">produce it frequently enough</a> to engage your audience in multiple areas online.</p>
