@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-10-18T10:14:13-04:00</updated>
+ <updated>2013-10-18T11:11:38-04:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -217,7 +217,7 @@
    <link href="YOUR_URL/3-common-misconceptions-about-brand-advocates.html"/>
    <updated>2013-10-18T00:00:00-04:00</updated>
    <id>BLOG_URL/3-common-misconceptions-about-brand-advocates</id>
-   <content type="html">&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;images/truth.jpg&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://www.getelevate.com/blog/images/truth.jpg&quot; /&gt;&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -901,7 +901,7 @@ So how do people get initiative, thoroughness and followthrough? I’m not sure 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;images/success.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://www.getelevate.com/blog/images/success.png&quot; /&gt;&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br /&gt;
@@ -1086,7 +1086,7 @@ If you&amp;#39;re interested in discussing strategy, feel free to email me at &l
    <id>BLOG_URL/3-b2b-content-marketing-turbochargers-you-should-activate</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;images/activate_influencers.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://www.getelevat.com/blog/images/activate_influencers.jpg&quot; /&gt;&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;

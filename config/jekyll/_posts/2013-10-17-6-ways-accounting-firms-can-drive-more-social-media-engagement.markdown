@@ -8,7 +8,7 @@ title: 6 Ways Accounting Firms Can Drive More Social Media Engagement
 
 <br />
 <br />
-<p style="text-align: center;"><img src="images/success.png" /></p>
+<p style="text-align: center;"><img src="http://www.getelevate.com/blog/images/success.png" /></p>
 <br />
 <br />
 
