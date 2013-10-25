@@ -26,9 +26,12 @@
 
   <!-- contact us submit GA -->
 	<script type="text/javascript">
-	$('#contact_submit').on('click', function() {
-		console.log( "GA will fire");
+	jQuery(document).ready(function($) {
+    // Track submission events.
+	  $('#contact_submit').submit(function() {
+		  console.log( "GA will fire");
     });
+  });
 	</script>
 
 
