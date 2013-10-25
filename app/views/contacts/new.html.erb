@@ -22,7 +22,7 @@
       <%= f.text_field :company %><br />
     
 
-      <%= f.submit 'Submit', class: 'btn btn-large btn-primary btn_space', id: 'contact_submit' %>
+      <%= f.submit 'Submit', class: 'btn btn-large btn-primary btn_space', onClick: "_gaq.push(['_trackEvent', 'Lead Generation', 'Lead Submitted', 'Website']);"  %>
       <% end %>
 
     </div>
