@@ -11,6 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
-//= require flat-ui
+//= require jquery_ujsrails generate bootstrap:install static
 //= require_tree .

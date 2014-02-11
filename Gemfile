@@ -7,7 +7,8 @@ gem 'rails', '3.2.12'
 
 gem 'pg'
 
-gem 'flatui-rails'
+gem 'twitter-bootstrap-rails'
+gem 'therubyracer'
 gem "figaro"
 gem 'unicorn'
 gem 'bloggy'
