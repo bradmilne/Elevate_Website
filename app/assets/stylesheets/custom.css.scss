@@ -1,0 +1,60 @@
+.navbar {
+	background-color: #fff !important;
+	padding-left: 40px;
+	padding-right: 40px;
+	@media (max-width: 480px) {
+    padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
+ 
+.hero_background {
+	background: #f6e8c9;
+	min-height: 420px;
+}
+
+.hero_area {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	@media (max-width: 480px) {
+    padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
+
+.hero_area h1 {
+	color: #25383C;
+	line-height: 1.2em;
+}
+
+.hero_area p {
+  font-size: 18px;
+	color: #25383C;
+	line-height: 1.2em;
+}
+
+.hero_p {
+margin-top: 40px;
+	max-width: 600px;
+}
+
+.hero_callout {
+	color: #A6001B;
+	margin-top: 20px;
+}
+
+.hero_image {
+	margin-top: 260px;
+}
+
+.cta_buttons button {
+	@media (max-width: 480px) {
+    margin-top: 10px;
+	}
+}
+
+.btn.btn-primary {
+  background-color: #428bca;
+}
