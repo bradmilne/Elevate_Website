@@ -1,44 +1,51 @@
 <footer>
-  <div class="container">	
-    <div class="row-fluid">
-      <div class="span12">
-	    <div class="hiring span4" style="width: 30%;">
-		  <h3>We're Hiring!</h3>
-  	      <p>Elevate is always looking for talented people to join our growing team. Send us an email with a bit about yourself and let's talk.</p>
-        <p><%= button_to "Contact Us", new_contact_path, :class => "btn btn-large btn-warning", :method => :get %></p>
-		</div>
-					
-		<div class="quick_links span3" style="width: 15%;">
-		  <ul>
-            <li><%= link_to 'Home', root_path %></li>
-            <li><%= link_to 'Our Platform', platform_path %></li>
-            <li><%= link_to 'Programs', programs_path %></li>
-            <li><%= link_to 'Contact us', new_contact_path %></li>
-          </ul>
-		</div>
-					
-		<div class=" quick_links span3" style="width: 20%;">
-		  <ul>
-            <a href="#"><li><%= link_to 'Schedule Demo', new_contact_path %></li></a>
-            <a href="http://www.getelevate.com/blog"><li>Blog</li></a>
-            <a href="http://app.getelevate.com/login"><li>Login</li></a>
-          </ul>
-		</div>
-		
-		<div class="follow_us span3" style="width: 25%;">
-		  <h3>Follow Us</h3>
-  	      <ul>
-  	        <li><%= link_to image_tag('google+.png'), "https://plus.google.com/101056390946961113976/posts" %></li>
-  	        <li><%= link_to image_tag('linkedin.png'), "http://www.linkedin.com/groups?home=&gid=5025079&trk=anet_ug_hm" %></li>
-  	        <li><%= link_to image_tag('twitter.png'), "http://www.twitter.com/getelevate" %></li>
-  	        <li><%= link_to image_tag('facebook.png'), "https://www.facebook.com/getelevate" %></li>
-		  </ul>
-		</div>				
-	  </div>
-	</div>
+  <div class="container-fluid footer_width">
+    <div class="row">
+    
+      <div class="col-md-3 col-md-offset-1">
+        <h2>We're Hiring!</h2>
+        <p>Elevate is always looking for talented people to join our growing team. Send us an email with a bit about yourself and let's talk.</p><br />
+        <p><%= button_to "Contact Us", new_contact_path, :class => "btn btn-large", :method => :get %></p>
+      </div>
+
+      <div class="col-md-2 quick_links">
+        <ul>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'Our Platform', programs_path %></li>
+          <li><%= link_to 'Programs', platform_path %></li>
+          <li><%= link_to 'Contact Us', new_contact_path %></li>
+        </ul>
+      </div>
+       
+      <div class="col-md-2 quick_links">
+        <ul>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'Our Platform', programs_path %></li>
+          <li><%= link_to 'Programs', platform_path %></li>
+          <li><%= link_to 'Contact Us', new_contact_path %></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 follow_us">
+        <h2>Find Us Online</h2>
+        <ul>
+          <li><%= link_to image_tag("facebook.png"), 'https://www.facebook.com/getelevate' %></li>
+          <li><%= link_to image_tag("twitter.png"), 'http://www.twitter.com/getelevate' %></li>
+          <li><%= link_to image_tag("linkedin.png"), 'http://www.linkedin.com/groups?home=&gid=5025079&trk=anet_ug_hm' %></li>
+          <li><%= link_to image_tag("google+.png"), 'https://plus.google.com/101056390946961113976/posts' %></li>
+        </ul>
+
+      </div>
+    </div>
   </div>
+
+<div class="container-fluid copyright_area">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 copyright">
+      <p>@ Copyright 2013 Elevate Inc. All Rights Reserved</p>
+    </div>
+  </div>
+</div>
+
 </footer>
 
-<div class="copyright">
-  <p>@ Copyright 2013 Elevate Inc. All Rights Reserved</p>
-<div>

@@ -1,5 +1,6 @@
 .navbar {
 	background-color: #fff !important;
+	border-bottom: #fff !important;
 	padding-left: 40px;
 	padding-right: 40px;
 	@media (max-width: 480px) {
@@ -9,7 +10,7 @@
 }
  
 .hero_background {
-	background: #f6e8c9;
+	background: #E0EEEE;
 	min-height: 420px;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .hero_p {
-margin-top: 40px;
+  margin-top: 40px;
 	max-width: 600px;
 }
 
@@ -46,7 +47,7 @@ margin-top: 40px;
 }
 
 .hero_image {
-	margin-top: 260px;
+	margin-top: 240px;
 }
 
 .cta_buttons button {
@@ -57,4 +58,236 @@ margin-top: 40px;
 
 .btn.btn-primary {
   background-color: #428bca;
+}
+
+.second_statement {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+}
+
+.second_statement h2 {
+	text-aign:center;
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.second_statement p {
+	font-size: 16px;
+	color: #5C5858;
+	line-height: 1.2em;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.second_statement hr {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.first_quote_background {
+	background-color: #f7f7f7;
+	background: #f7f7f7;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	min-height: 200px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.first_quote {
+	text-align: center;
+}
+
+.chamandy_image {
+	text-align: left;
+}
+
+.chamandy_quote {
+	padding-top: 20px;
+}
+
+.chamandy_quote p {
+	font-size: 18px;
+}
+
+.chamandy {
+	font-size: 16px;
+	color: #575757;
+	margin-top: 15px;
+}
+
+.quote_mark {
+	font-size: 22px;
+	color: #A6001B;
+}
+
+.third_statement {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.third_statement h2 {
+	text-aign:center;
+	color: #A6001B;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.benefit_text {
+	margin-bottom: 40px;
+}
+
+.benefit_text h3 {
+	color: #25383C;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.benefit_text p {
+	color:  #404040;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.benefit_text li {
+	list-style-image: image-url("green_checkmark.png");
+}
+
+.benefit_text ul {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.benefit_text ul p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	color: #575757;
+}
+
+.benefit_spacing {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.benefit_center {
+	text-align: center;
+}
+
+.crm_info {
+	margin-bottom: -35px;
+}
+
+.marketo_quote {
+	background: #25383C;
+	background-color: #25383C;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.marketo_quote p {
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+}
+
+.marketo {
+	font-size: 18px;
+}
+
+.home_page_contact {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.home_page_contact h2 {
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.home_page_contact p {
+	font-size: 16px;
+	padding-bottom: 40px;
+	color: #575757;
+}
+
+.home_page_button {
+	text-align: center;
+}
+
+.button_text {
+	font-size: 24px;
+	@media (max-width: 480px) {
+    font-size: 16px;
+	}
+}
+
+.footer_width {
+	padding: 40px 40px 40px 40px;
+	background: #f7f7f7;
+	background-color: #f7f7f7;
+}
+
+footer {
+	min-height: 100px;
+}
+
+footer h2 {
+	color: #404040;
+	text-decoration: none;
+}
+
+footer p {
+	color: #737373;
+	text-decoration: none;
+}
+
+.quick_links li {
+	list-style-type: none;
+	color: #737373;
+}
+
+.quick_links li a {
+	color: #737373;
+}
+
+.follow_us ul {
+	display: block;
+}
+.follow_us li {
+	list-style-type: none;
+	float: left;
+}
+
+.follow_us li a{
+	display: block;
+	width: 20px;
+}
+
+.copyright_area {
+	background: #333333;
+	background-color: #333333;
+}
+
+.copyright {
+	text-align: center;
+}
+.copyright p {
+	color: #fff;
+	font-size: 12px;
 }
