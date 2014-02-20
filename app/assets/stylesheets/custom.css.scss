@@ -310,7 +310,6 @@ footer p {
 
 
 .platform_description p {
-	line-height: 1.4em;
 	margin-bottom: 20px;
 	font-size: 18px;
 	line-height: 1.4em;
@@ -375,6 +374,38 @@ footer p {
 
 .platform_page_divider h2 {
 	color: #25383C;
+}
+
+.good_email p {
+	font-size: 18px;
+	color: #5C5858;
+	line-height: 1.4em;
+	padding-top: 10px;
+}
+
+.benefit_text p {
+	color:  #404040;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.good_email {
+	padding-bottom: 30px;
+}
+
+.good_email li {
+	list-style-image: image-url("green_checkmark.png");
+}
+
+.good_email ul {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.good_email ul p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	color: #575757;
 }
 
 
