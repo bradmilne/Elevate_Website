@@ -11,6 +11,7 @@
  
 .hero_background {
 	background: #E0EEEE;
+	background-color: #E0EEEE;
 	min-height: 420px;
 }
 
@@ -101,8 +102,8 @@
 	border-top: 1px solid #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
 	min-height: 200px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -291,3 +292,89 @@ footer p {
 	color: #fff;
 	font-size: 12px;
 }
+
+
+
+.product_header {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: #25383C;
+	background-color: #25383C;
+}
+
+.product_header h2 {
+	color: #fff;
+	line-height: 1.2em;
+}
+
+
+.platform_description p {
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+.platform_page_header {
+	background: url(/assets/peeps.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.how_works h2 {
+	color: #A6001B;
+}
+
+.how_works p {
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+.platform_page_header h1 {
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 36;
+}
+
+.platform_page_header p {
+	font-size: 18px;
+	color: #f7f7f7;
+	line-height: 1.2em;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.elevate_quote {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.big_product_image {
+	text-align: center;
+}
+
+.big_product_image img {
+	margin-top: 10px;
+}
+
+.platform_page_divider {
+	background: #E0EEEE;
+	background-color: #E0EEEE;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.platform_page_divider h2 {
+	color: #25383C;
+}
+
+
