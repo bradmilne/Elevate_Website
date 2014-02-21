@@ -508,19 +508,23 @@ footer p {
 	padding-bottom: 5px;
 	padding-top: 5px;
 	color: #575757;
+	max-width: 500px;
 }
 
 .contact_form {
 	min-height: 600px;
+
 }
 
 .contact_form_area {
 	padding-top: 20px;
+	padding-left: 40px;
 }
 
 .contact_form form {
 	min-height: 400px;
 	margin-top: 20px;
+
 }
 
 .contact_form label {
@@ -538,7 +542,7 @@ footer p {
 	margin-bottom: 15px;
 	}
 
-	.contact_form button {
+.button_text {
 	  width: 200px;
-	  text-align: center;
+	  text-align: right;
 	}
