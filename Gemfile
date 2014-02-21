@@ -8,7 +8,7 @@ gem 'rails', '3.2.12'
 gem 'pg'
 gem 'unicorn'
 gem 'bloggy'
-
+gem 'figaro'
 
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
