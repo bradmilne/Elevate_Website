@@ -1,30 +1,55 @@
-<% @title="Sales Team Email Automation Contact Us | Elevate" %>
-<div class="platform_header">
-	<h1>Contact Us</h1>
-	<p>We would love the chance to help determine if we can help with your program goals.</p>
+<% @title="Sales Team Email Automation Programs | Elevate" %>
+<div style="min-height: 120px;" class="container-fluid platform_page_header">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+     <h1>
+          Get In Touch to See How We Can Help
+        </h1>
+    </div>
+  </div>
 </div>
 
-<div class="contact_area">
-	<div class="container">
-		<%= render 'layouts/messages' %>
-		<div class="contact_form">
-      <%= form_for :contact, url: contacts_path do |f| %>
-      <%= f.label :name, class: 'form_label' %>
-      <%= f.text_field :name %><br />
+<div class="container-fluid programs_benefits">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>We Work With B2B Companies of All Sizes</h2>
+    </div>
+  </div>
+</div>
 
-      <%= f.label :email, class: 'form_label,' %>
-      <%= f.text_field :email %><br />
 
-      <%= f.label :phone, class: 'form_label' %>
-      <%= f.text_field :phone %><br />
+<div class="container-fluid contact_section">
 
-      <%= f.label :company, class: 'form_label' %>
-      <%= f.text_field :company %><br />
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <h3>You're in good company</h3>
+      <p>Contact us today and we'll show you how you can identify upsell and cross-sell opportunities among your existing clients.
+      </p>
+      <%= image_tag 'contact_logos.png' %>
+    </div>
+
+    <div class="col-md-4 contact_form_area">
+      <%= render 'layouts/messages' %>
+        <%= form_for :contact, url: contacts_path, html: { class: "form_horizontal contact_form well"} do |f| %>
+          <%= f.label :name, class: 'form_label' %>
+          <%= f.text_field :name %><br />
+
+          <%= f.label :email, class: 'form_label,' %>
+          <%= f.text_field :email %><br />
+
+          <%= f.label :phone, class: 'form_label' %>
+          <%= f.text_field :phone %><br />
+
+          <%= f.label :company, class: 'form_label' %>
+          <%= f.text_field :company %><br />
     
 
-      <%= f.submit 'Submit', class: 'btn btn-large btn-primary btn_space', onClick: "_gaq.push(['_trackEvent', 'Lead Generation', 'Lead Submitted', 'Website']);"  %>
-      <% end %>
+          <%= f.submit 'Submit', class: 'btn btn-large btn-success button_text'  %>
+        <% end %>
 
     </div>
   </div>
 </div>
+
+<%= render 'layouts/footer' %>
+

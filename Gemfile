@@ -9,6 +9,7 @@ gem 'pg'
 gem 'unicorn'
 gem 'bloggy'
 
+
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                           :github => 'anjlab/bootstrap-rails',
                           :branch => '3.0.0'
