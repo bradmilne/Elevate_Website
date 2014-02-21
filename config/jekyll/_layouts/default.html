@@ -2,11 +2,12 @@
 <html>
 <head>
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/blog/css/bootstrap-responsive.min.css" type="text/css" />
-   <link rel="stylesheet" href="/blog/css/bootstrap.min.css" type="text/css" />
-   <link rel="stylesheet" href="/blog/css/custom.css" type="text/css" />
-   <link rel="stylesheet" href="/blog/css/syntax.css" type="text/css" />
-   <link rel="shortcut icon" href="images/elevate_favicon.ico">
+    <link rel="stylesheet" href="/blog/css/syntax.css" type="text/css" />
+    <link rel="stylesheet" href="/blog/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/blog/css/framework_and_overrides.css" type="text/css" />
+    <link rel="stylesheet" href="/blog/css/custom.css" type="text/css" />
+    <link rel="stylesheet" href="/blog/css/blog.css" type="text/css" />
+    <link rel="shortcut icon" href="images/elevate_favicon.ico">
 
     <!-- starts Google Analytics -->
     <script type="text/javascript">
@@ -23,105 +24,124 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
-
-  <!-- starts Mixpanel Analytics -->
-  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
-  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,
-  e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-  mixpanel.init("778141f604df8b801967ec8dfc5a66eb");
-  </script>
 </head>
 <body>
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a href="http://www.getelevate.com" class="brand"><img src="/blog/images/elevate_logo.png" /></a>
+    </div>
 
-   <div style="margin-top: 10px;" class="navbar top_nav">
-     <div class="container">
-       <div class="container">
-         <a class="btn btn-navbar  top_nav" data-toggle="collapse" data-target=".nav-collapse">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         </a>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.getelevate.com">Home</a></li>
+        <li><a href="http://www.getelevate.com/platform">Platform</a></li>
+        <li><a href="http://www.getelevate.com/programs">Programs</a></li>
+        <li><a href="https://app.getelevate.com/login">Login</a></li>
+        <li><a style="color:#A6001B !important; font-style: bold !important;" href="http://www.getelevate.com/contacts/new">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-         <a href="http://www.getelevate.com"><img class="brand" src="/blog/images/elevate_logo.png" /></a>
+<div style="min-height: 120px;" class="container-fluid platform_page_header">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+     <h1>
+          The Elevate Blog
+        </h1>
+    </div>
+  </div>
+</div>
 
-        <div class="nav-collapse">
-          <ul class="nav pull-right nav_options">
-            <li><a class="nav_fonts" href="http://www.getelevate.com">Home</a></li>
-            <li><a class="nav_fonts" href="http://www.getelevate.com/platform">Platform</a></li>
-            <li><a class="nav_fonts" href="http://www.getelevate.com/programs">Programs</a></li>
-            <li><a class="nav_fonts" href="http://www.getelevate.com/contacts/new">Contact Us</a></li>
-            <li><a class="nav_fonts" href="https://app.getelevate.com/login">Login</a></li>                   
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7 col-md-offset-1">
+      {{ content }}
+    </div>
+ 
+
+    <div class="col-md-3 what_we_do">
+      <h3>About Elevate</h3>
+        <hr>
+        <p>The Elevate Email Automation platform ensures that your clients are always kept up to date with the most relevant industry news and company content.<p>
+        <hr>
+        <a href="http://www.getelevate.com/contacts/new" class="btn btn-large btn-warning">Contact Us</a>
+        <hr>
+
+        <div id="related">
+          <h4>Some Other Posts You Might Like</h5><br />
+          <ul class="posts">
+          {% for post in site.related_posts limit:10 %}
+            <li style="list-style-type: none;"><a style="text-decoration: underline;" href="/blog{{ post.url }}">{{ post.title }}</a></li><br />
+          {% endfor %}
           </ul>
-        </div><!--/.nav-collapse -->
+       </div>
+    </div>
+  </div>
+</div> 
+
+
+  
+<footer>
+  <div class="container-fluid footer_width">
+    <div class="row">
+    
+      <div class="col-md-3 col-md-offset-1">
+        <h2>We're Hiring!</h2>
+        <p>Elevate is always looking for talented people to join our growing team. Send us an email with a bit about yourself and let's talk.</p><br />
+        <p><a href="http://www.getelevate.com/contacts/new"><button class="btn btn-large btn-primary">Contact Us</button></a></p>
+      </div>
+
+      <div class="col-md-2 quick_links">
+        <ul>
+          <li><a href="http://www.getelevate.com">Home</a></li>
+          <li><a href="http://www.getelevate.com/platform">Platform</a></li>
+          <li><a href="http://www.getelevate.com/programs">Programs</a></li>
+          <li><a href="https://app.getelevate.com/login">Login</a></li>
+          <li><a style="color:#A6001B !important; font-style: bold !important;" href="http://www.getelevate.com/contacts/new">Contact Us</a></li>
+        </ul>
+      </div>
+       
+      <div class="col-md-2 quick_links">
+        <ul>
+          <li><a href="http://www.getelevate.com">Home</a></li>
+          <li><a href="http://www.getelevate.com/platform">Platform</a></li>
+          <li><a href="http://www.getelevate.com/programs">Programs</a></li>
+          <li><a href="https://app.getelevate.com/login">Login</a></li>
+          <li><a style="color:#A6001B !important; font-style: bold !important;" href="http://www.getelevate.com/contacts/new">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 follow_us blog_follow_us">
+        <h2>Find Us Online</h2>
+        <ul>
+          <li><a href="https://www.facebook.com/getelevate"><img src="/blog/images/facebook.png" /></a></li>
+          <li><a href="http://www.twitter.com/getelevate"><img src="/blog/images/twitter.png" /></a></li>
+          <li><a href="http://www.linkedin.com/groups?home=&gid=5025079&trk=anet_ug_hm"><img src="/blog/images/linkedin.png" /></a></li>
+          <li><a href="https://plus.google.com/101056390946961113976/posts" /><img src="/blog/images/google+.png" /></a></li>
+        </ul>
+
       </div>
     </div>
   </div>
 
-  <div class="blog_header_background">
-  <div class="container">
-    <div class="blog_title">
-      <a href="http://www.getelevate.com/blog"><h2>The Elevate Blog</h2></a>
-    </div>
-  </div>
-  </div>
-  
-  <div class="container">
+<div class="container-fluid copyright_area">
   <div class="row">
-    <div class="span9">
-      {{ content }}
+    <div class="col-md-6 col-md-offset-3 copyright">
+      <p>@ Copyright 2014 Elevate Inc. All Rights Reserved</p>
     </div>
+  </div>
+</div>
 
-    <div class="span3 blog_sidebar">
-      <h3>What We Do</h3>
-      <hr>
-      <p>The Elevate Email Automation platform ensures that your clients are always kept up to date with the most relevant industry news and company content.<p>
-        <hr>
-      <a href="http://www.getelevate.com/contacts/new" class="btn btn-large btn-warning">Contact Us</a>
-    </div>
-  </div>
-  </div>
-  
-  <footer>
-  <div class="container"> 
-    <div class="row-fluid">
-      <div class="span12">
-      <div class="hiring span4" style="width: 30%;">
-      <h3>We're Hiring!</h3>
-          <p>Elevate is always looking for talented people to join our growing team. Send us an email with a bit about yourself and let's talk.</p>
-        <p><a href="http://www.getelevate.com/contact" class="btn btn-large btn-warning">Contact Us</a></p>
-    </div>
-          
-    <div class="quick_links span3" style="width: 15%;">
-      <ul>
-        <a href="http://www.getelevate.com"><li>Home</li></a>
-        <a href="http://www.getelevate.com/platform"><li>Platform</li></a>
-        <a href="http://www.getelevate.com/programs"><li>Programs</li></a>
-        <a href="http://www.getelevate.com/contacts/new"><li>Contact Us</li></a>
-      </ul>
-    </div>
-          
-    <div class=" quick_links span3" style="width: 20%;">
-      <ul>
-            <a href="http://www.getelevate.com/contacts/new"><li>Schedule Demo</li></a>
-            <a href="http://www.getelevate.com/blog"><li>Blog</li></a>
-            <a href="http://app.getelevate.com/login"><li>Login</li></a>
-          </ul>
-    </div>
-    
-    <div class="follow_us span3" style="width: 25%;">
-      <h3>Follow Us</h3>
-        <ul>
-          <li><a href="https://plus.google.com/101056390946961113976/posts"><img src="/blog/images/google+.png" /></a></li>
-          <li><a href="http://www.linkedin.com/groups?home=&gid=5025079&trk=anet_ug_hm"><img src="/blog/images/linkedin.png" /></a></li>
-          <li><a href="http://www.twitter.com/getelevate"><img src="/blog/images/twitter.png" /></a></li>
-          <li><a href="https://www.facebook.com/getelevate"><img src="/blog/images/facebook.png" /></a></li>
-        </ul>
-    </div>        
-    </div>
-  </div>
-  </div>
 </footer>
 
-<div class="copyright">
-  <p>@ Copyright 2013 Elevate Inc. All Rights Reserved</p>
-<div>

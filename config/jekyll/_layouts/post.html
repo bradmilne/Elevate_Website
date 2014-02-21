@@ -2,24 +2,18 @@
 layout: default
 ---
  
-  <div id="blog_post" style="max-width: 800px;">
-  	<h3>{{ page.title }}</h3>
+
+     
+<div class="blog_post_title">
+  <h2>{{ page.title }}</h2>
   	<div class="blog_post_body">
       <p>{{ page.content }}</p>
     </div>
-  </div>
-
-<br /><br />
-<div id="related" style="text-align: center;">
-  <h4>Some Other Posts You Might Like</h5><br />
-  <ul class="posts">
-    {% for post in site.related_posts limit:10 %}
-      <li style="list-style-type: none;"><a style="text-decoration: underline;" href="/blog{{ post.url }}">{{ post.title }}</a></li><br />
-    {% endfor %}
-  </ul>
 </div>
-<br />
-<br />
+  
+
+
+
 
 <!-- AddThis Smart Layers BEGIN -->
 <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
