@@ -549,15 +549,28 @@ footer p {
 }
 
 
-.programs_page_top {
+.program_page_top {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  border-top: 1px solid #c0c0c0;
+	padding-top: 40px;
+	padding-bottom: 10px;
 }
 
-.programs_page_top h2 {
-	font-size: 30px;
-	color: #34495e;
+.program_page_top h1 {
+	color: #A6001B;
+	font-family: 'Merriweather', serif;
+}
+
+.program_page_top h3 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #25383C;
+	padding-bottom: 40px;
+}
+
+.program_image {
+	border-bottom: 1px solid #c0c0c0;
 }
 
 .programs_benefits {
@@ -570,11 +583,13 @@ footer p {
 	padding-bottom: 10px;
 	font-size: 30px;
 	color: #A6001B;
+	font-family: 'Merriweather', serif;
 }
 
 .programs_benefits h3 {
 	color: #25383C;
 	padding-bottom: 20px;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .programs_benefits p {
@@ -582,9 +597,11 @@ footer p {
 	padding-bottom: 5px;
 	padding-top: 10px;
 	color: #575757;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .program_checklist {
+  border-top: 1px solid #c0c0c0;
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
@@ -593,7 +610,8 @@ footer p {
 	padding-bottom: 10px;
 	font-size: 30px;
 	color: #A6001B;
-	text-align: center
+	text-align: center;
+	font-family: 'Merriweather', serif;
 }
 
 
@@ -611,11 +629,19 @@ footer p {
 
 .program_checklist li {
 	list-style-image: image-url("green_checkmark.png");
+	text-align: left;
 }
 
 .program_checklist ul {
 	padding-top: 20px;
 	padding-left: 10px;
+}
+.checklist_right {
+	text-align: left;
+	margin-left: 30px;
+	@media (max-width: 480px) {
+    margin-left: 0px;
+	}
 }
 
 .program_checklist ul p {
