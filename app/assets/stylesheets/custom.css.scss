@@ -484,6 +484,7 @@ footer p {
 	color: #5C5858;
 	line-height: 1.4em;
 	padding-top: 10px;
+	font-family: 'Open sans', Arial, sans-serif;
 }
 
 .benefit_text p {
@@ -494,6 +495,11 @@ footer p {
 
 .good_email {
 	padding-bottom: 30px;
+}
+
+.good_email h3 {
+	font-family: 'Open sans', Arial, sans-serif;
+	color: #25383C;
 }
 
 .good_email li {
