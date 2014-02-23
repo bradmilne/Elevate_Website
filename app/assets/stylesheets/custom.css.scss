@@ -1,22 +1,42 @@
 .navbar {
 	background-color: #fff !important;
 	border-bottom: #fff !important;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 10px !important;
 	@media (max-width: 480px) {
     padding-left: 0px;
 	  padding-right: 0px;
 	}
 }
+
+.navbar-default {
+	padding-bottom: -15px;
+	margin-bottom: -100px;
+}
+
+body h3 h2 {
+	font-family: 'Merriweather',serif;
+}
+
+body p {
+	
+}
+
+
 .navbar img {
-	padding-top: 20px;
+	padding-top: 10px;
+	@media (max-width: 480px) {
+    text-align: center;
+	}
 }
 
 .navbar ul li {
-	padding-right: 16px;
+	padding-right: 14px;
 	font-size: 20px;
 	color: #25383C;
-	padding-top: 20px;
+	padding-top: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar ul li a {
@@ -25,25 +45,45 @@
 }
 
 .contact_link {
-	padding-top: 20px !important;
+	padding-top: 10px !important;
 }
 
 .contact_link a {
-	padding-top: 20px;
+	padding-top: 10px;
 	color: #A6001B !important;
 }
 
 
  
 .hero_background {
+	
+	background: url(/assets/squairy_light.png);
+	background: url(/assets/grey_wash_wall.png);
+	background: url(/assets/fabric_of_squares_gray.png);
+	background: url(/assets/cream_pixels.png);
+	background: url(/assets/dark_fish_skin.png);
+	background: url(/assets/wavegrid.png);
 	background: #E0EEEE;
-	background-color: #E0EEEE;
+	background: #C8C8C8  url(/assets/transparent_grid.png) center center;
+	background-color: #C8C8C8 url(/assets/transparent_grid.png) center center;
+	background: url(/assets/wavegrid.png);
+	background: url(/assets/fabric_plaid.png);
+	background: url(/assets/dark_circles.png);
+  background: url(/assets/whitey.png);
+  background: url(/assets/random_grey_variations.png);
+  background: url(/assets/little_pluses.png);
+  background: url(/assets/black-Linen.png);
+  background: url(/assets/crossed_stripes.png);
+  background: url(/assets/gray_jean.png);
 	min-height: 420px;
+	background: #f7f7f7 url(/assets/grid12.png) center center;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
 }
 
 .hero_area {
-	padding-top: 40px;
-	padding-bottom: 60px;
+	padding-top: 10px;
+	padding-bottom: 50px;
 	padding-left: 40px;
 	padding-right: 40px;
 	@media (max-width: 480px) {
@@ -53,33 +93,39 @@
 }
 
 .hero_area h1 {
+	text-align:center; 
+	font-size: 56px; 
+	color: #A6001B;
+	font-family: 'Merriweather',serif;
+	line-height: 1.4em;
+}
+
+.hero_area h2 {
+	text-align:center; 
+	font-size: 28px;
 	color: #25383C;
-	line-height: 1.2em;
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin-top: -5px;
 }
 
 .hero_area p {
-  font-size: 18px;
-	color: #25383C;
-	line-height: 1.2em;
+	font-size: 22px;
+	color: #5C5858;
+	line-height: 1.4em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	
 }
 
-.hero_p {
-  margin-top: 40px;
-	max-width: 600px;
-}
-
-.hero_callout {
-	color: #A6001B;
-	margin-top: 20px;
-}
-
-.hero_image {
-	margin-top: 0px;
+.cta_buttons {
+	 text-align: center; 
 }
 
 .cta_buttons button {
 	@media (max-width: 480px) {
-    margin-top: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
 	}
 }
 
@@ -94,10 +140,11 @@
 	padding-left: 40px;
 	padding-right: 40px;
 	margin: 0 auto;
+	font-family: 'Merriweather',serif;
 }
 
 .second_statement h2 {
-	text-aign:center;
+	text-align:center;
 	color: #A6001B;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -122,43 +169,38 @@
 }
 
 
-.first_quote_background {
-	background-color: #f7f7f7;
-	background: #f7f7f7;
+.testimonial_background {
+	background-color: #f6f6f6;
+	background: #f6f6f6;
 	border-top: 1px solid #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
-	min-height: 200px;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-bottom: 20px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-.first_quote {
-	text-align: center;
+.testimonial_background p {
+	font-style: italic;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 20px;
+	color: #A6001B;
+
 }
 
-.chamandy_image {
-	text-align: left;
+.testimonial_attribute img {
+	display: inline;
 }
 
-.chamandy_quote {
-	padding-top: 20px;
-}
-
-.chamandy_quote p {
-	font-size: 18px;
-}
-
-.chamandy {
+.testimonial_attribute p {
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	color: #575757;
-	margin-top: 15px;
+	color: #504A4B;
 }
 
 .quote_mark {
-	font-size: 22px;
-	color: #A6001B;
+	font-size: 28px;
+	color: #504A4B;
 }
 
 .third_statement {
@@ -171,6 +213,7 @@
 	color: #A6001B;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	font-family: 'Merriweather',serif;
 }
 
 .benefit_text {
@@ -181,12 +224,14 @@
 	color: #25383C;
 	font-size: 28px;
 	margin-bottom: 20px;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .benefit_text p {
 	color:  #404040;
 	margin-bottom: 15px;
 	font-size: 20px;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .benefit_text li {
@@ -202,6 +247,7 @@
   font-size: 18px;
 	padding-bottom: 5px;
 	color: #575757;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .benefit_spacing {
@@ -217,22 +263,26 @@
 	margin-bottom: -35px;
 }
 
-.marketo_quote {
-	background: #25383C;
-	background-color: #25383C;
-	padding-top: 40px;
-	padding-bottom: 40px;
+.third_party_quote {
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
+	background: #f7f7f7;
+	background-color: #f7f7f7;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.marketo_quote p {
-	font-size: 22px;
+.third_party_quote h2 {
+	font-size: 28px;
 	text-align: center;
-	color: #fff;
+	color: #25383C;
+	padding-bottom: 10px;
+	line-height: 1.4em;
 }
 
-.marketo {
-	font-size: 18px;
+.third_party_quoter {
+	font-size: 16px;
+	color: #25383C;
 }
 
 .home_page_contact {
@@ -245,12 +295,14 @@
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
+	font-family: 'Merriweather',serif;
 }
 
 .home_page_contact p {
 	font-size: 16px;
 	padding-bottom: 40px;
 	color: #575757;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .home_page_button {
@@ -331,32 +383,23 @@ footer p {
 }
 
 
-.product_header {
-	padding-top: 10px;
-	padding-bottom: 20px;
+.platform_overview {
+	border-top: 1px solid #c0c0c0;
 	text-align: center;
-	background: #25383C;
-	background-color: #25383C;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.product_header h2 {
-	color: #fff;
-	line-height: 1.2em;
+.platform_overview h1 {
+	color: #A6001B;
+	font-family: 'Merriweather', serif;
 }
 
-
-.platform_description p {
-	margin-bottom: 20px;
-	font-size: 18px;
-	line-height: 1.4em;
-}
-
-.platform_page_header {
-	background: url(/assets/peeps.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.platform_overview h3 {
+	color: #A6001B;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #25383C;
+	padding-bottom: 40px;
 }
 
 .how_works h2 {
@@ -392,24 +435,48 @@ footer p {
 	padding-bottom: 40px;
 }
 
+.nav-tabs {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.nav-tabs li {
+	font-size: 18px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.nav-tabs li a {
+	color: #A6001B;
+}
+
 .big_product_image {
 	text-align: center;
 }
 
+.big_product_image h2 {
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Merriweather', serif;
+}
+
+.big_product_image p {
+	font-size: 16px;
+	color: #5C5858;
+	line-height: 1.2em;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	max-width: 800px;
+}
+
+.big_product_image_border {
+	border-bottom: 1px solid #c0c0c0;
+}
+
 .big_product_image img {
 	margin-top: 10px;
-}
-
-.platform_page_divider {
-	background: #E0EEEE;
-	background-color: #E0EEEE;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-.platform_page_divider h2 {
-	color: #25383C;
 }
 
 .good_email p {
@@ -443,6 +510,44 @@ footer p {
 	padding-bottom: 5px;
 	color: #575757;
 }
+
+.faq_section {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.faq_section h2 {
+	color: #A6001B;
+	padding-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+.faq_question {
+	border-bottom: 1px solid #f7f7f7;
+	padding-bottom: 10px;
+}
+
+.faq_question h3 {
+	font-size: 22px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #25383C;
+	font-weight: bold;
+}
+
+
+.faq_question p {
+	font-size: 16px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #A1A1A1;
+	line-height: 1.4em;
+}
+
+.faq_question p a {
+	color: #A6001B;
+	text-decoration: none;
+}
+
 
 .programs_page_top {
   padding-top: 30px;
@@ -537,6 +642,10 @@ footer p {
 	max-width: 500px;
 }
 
+.contact_section img {
+	float: left;
+}
+
 .contact_form {
 	min-height: 600px;
 
@@ -566,6 +675,12 @@ footer p {
 	padding-bottom: 5px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.contact_button input {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 120px;
 	}
 
 .button_text {
