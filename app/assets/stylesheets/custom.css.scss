@@ -83,7 +83,7 @@ body p {
 
 .hero_area {
 	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
 	@media (max-width: 480px) {
@@ -94,7 +94,7 @@ body p {
 
 .hero_area h1 {
 	text-align:center; 
-	font-size: 56px; 
+	font-size: 46px; 
 	color: #A6001B;
 	font-family: 'Merriweather',serif;
 	line-height: 1.4em;
@@ -102,20 +102,27 @@ body p {
 
 .hero_area h2 {
 	text-align:center; 
-	font-size: 28px;
-	color: #25383C;
+	font-size: 26px;
+	color: #7A7A7A;
 	font-family: 'Open Sans', Arial, sans-serif;
-	margin-top: -5px;
+	margin-top: 5px;
+	line-height: 1.4em;
 }
 
 .hero_area p {
 	font-size: 22px;
-	color: #5C5858;
+	color: #25383C;
 	line-height: 1.4em;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 	text-align: center;
-	
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.hero_area button {
+	line-height: 1.4em;
+	margin-top: 25px;
+
 }
 
 .cta_buttons {
@@ -132,6 +139,48 @@ body p {
 .btn.btn-primary {
   background-color: #428bca;
 }
+
+.btn.btn-warning {
+  background-color: #D79336;
+}
+
+.homepage_signup_background {
+	border-bottom: 1px solid #c0c0c0;
+	background:  #007256;
+	background-color:  #007256;
+	background: #F0F0F0;
+	background-color:  #F0F0F0;
+}
+
+.homepage_contact_form_area {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hp_contact_form text_field {
+	min-width: 400px !important;
+	font-size: 22px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #A6001B;
+}
+
+.form-inline {
+	min-width: 400px !important;
+}
+
+.form-control {
+	min-width: 400px !important;
+	font-size: 22px !important;
+}
+
+.contact_button_homepage input {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+	}
+
 
 .second_statement {
 	text-align: center;
@@ -183,8 +232,9 @@ body p {
 .testimonial_background p {
 	font-style: italic;
 	font-family: 'Open Sans', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 28px;
 	color: #A6001B;
+	text-align:center;
 
 }
 

@@ -6,13 +6,13 @@
     <div class="hero_area">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <h1>We Help B2B Companies<br/> Increase Client Revenue</h1>
+          <h1>Maximize Revenue from Existing Clients</h1>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>Discover Your Up-Sell and Cross-Sell Opportunities
+        <div class="col-md-10 col-md-offset-1">
+          <h2>The Elevate Customer Engagement Platform
           </h2>
         </div>
       </div>
@@ -26,25 +26,33 @@
 
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <p>The Elevate Customer Engagement Platform for B2B Companies</p>
+          <p>Elevate's next-generation email platform helps uncover up-sell, cross-sell and referral opportunities among your current clients.</p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 cta_buttons">
-          <a href="/contacts/new"><button type="button" class="btn btn-lg btn-danger">Schedule Demo</button></a>
-        </div>
-      </div>
     </div>
   </div>
 </div>
 
+<div class="container-fluid homepage_signup_background">
+  <div class="col-md-8 col-md-offset-2 homepage_contact_form_area">
+    <%= render 'layouts/messages' %>
+      <%= form_for :contact, url: contacts_path, html: { class: "form-inline hp_contact_form "} do |f| %>
+    
+        <%= f.text_field :email, class: "form-control form_placeholder_text", placeholder: "Enter email address..." %>
+
+        <span class="contact_button_homepage"><%= f.submit 'Request More Information', class: 'btn btn-large btn-primary'  %></span>
+      <% end %>
+  </div>
+</div>
+
+
 <div class="container-fluid">
   <div class="second_statement">
-    <h2>Marketing Automation for Existing Customers</h2>
+    <h2>A Few of Our Clients</h2>
     <hr>
      <p>
-    A Few of Our Clients
+    
     </p>
     <%= image_tag 'clients3.png' %>
   </div>
@@ -53,8 +61,8 @@
 
 <div class="container-fluid testimonial_background">
   <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <p><span class="quote_mark">"</span>Elevate is a no-brainer for companies looking to increase their up-selling and cross-selling opportunities. It's simple to use and it works.</span><span class="quote_mark">"</span>
+    <div class="col-md-8 col-md-offset-2">
+      <p><span class="quote_mark">"</span>With each Elevate email I send, it's exciting discovering how much revenue is hidden in my current client list.</span><span class="quote_mark">"</span>
       </p>
     </div>
   </div>
@@ -75,7 +83,7 @@
   <div class="row benefit_text">
     <div class="col-md-5 col-md-offset-1">
       <h3>Uncover Client Buying Interest</h3>
-      <p>Don't let up-sell and cross-sell opportunities slip away</p>
+      <p>Discover upsell and cross-sell opportunities you never knew existed</p>
       <ul>
         <li><p>Learn client preferences across business units</p></li>
         <li><p>Understand which clients are ready to be contacted</p></li>
@@ -105,7 +113,7 @@
 
     <div class="col-md-5">
       <h3>Drive Leads Directly To Sales Teams</h3>
-      <p>Give salespeople the data they need to drive revenue</p>
+      <p>Give salespeople the data they need to uncover hidden revenue</p>
       <ul>
         <li><p>Tell sales teams which clients are ready to buy</p></li>
         <li><p>Figure out client interests across business divisions</p></li>
@@ -127,7 +135,7 @@
   <div class="row benefit_text benefit_spacing">
     <div class="col-md-5 col-md-offset-1">
       <h3>Improve Your Client Email Experience</h3>
-      <p>Stop spamming your clients with irrelevant email marketing</p>
+      <p>Have clients look forward to the content in your emails</p>
       <ul>
         <li><p>Segment your clients to ensure they only receive relevant info</p></li>
         <li><p>Understand which clients are ready to be contacted</p></li>
