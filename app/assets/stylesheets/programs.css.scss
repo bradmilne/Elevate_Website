@@ -1,0 +1,17 @@
+.how_it_works_list {
+	test-align: left;
+}
+
+.how_it_works_list h3 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.how_it_works_list ul li {
+	text-align: left;
+	list-style-image: image-url("green_checkmark2.png");
+	font-size: 20px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	padding-top: 12px;
+	
+}

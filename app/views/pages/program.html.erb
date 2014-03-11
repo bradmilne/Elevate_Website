@@ -5,36 +5,158 @@
 <div class="container-fluid program_page_top">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h1>Discover What Your Clients Care About</h1>
+      <h1>Digest-Style Newsletters Get Results</h1>
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h3>Improve your customer experience with communications they want to receive</h3>
+      <h3>Customer engagement starts with great content in a great format</h3>
     </div>
   </div>
+</div>
 
-  <div class="container-fluid">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6 col-md-offset-1 program_image">
       <%= image_tag 'program_image.png' %>
     </div>
 
-    <div class="col-md-4 program_image">
-      <h3>test</h3>
-      <p>a test of a paragraph</p>
+    <div class="col-md-4 how_it_works_list">
+      <h3>Reasons to love digest emails</h3>
+      <hr>
       <ul>
-        <li>test 1</li>
-        <li>test 2</li>
-        <li>test 3</li>
-        <li>test 4</li>
-        <li>test 5</li>
-        <li>test 6</li>
+        <li>Better targeted content</li>
+        <li>Get more total engagement</li>
+        <li>5X higher clickthrough rates</li>
+        <li>Promotes thought leadership</li>
+        <li>Create & send in minutes</li>
+        <li>Easily segment your recipients</li>
+        <li>Generate data on preferences</li>
+        <li>Reduce email spam</li>
+        <li>Re-use content assets</li>
+        <li>Increase content sharing</li>
+        <li>Populate CRM with useful info</li>
       </ul>
     </div>
   </div>
 </div>
+
+
+<div class="container-fluid homepage_signup_background">
+  <div class="col-md-8 col-md-offset-2 homepage_contact_form_area">
+    <%= render 'layouts/messages' %>
+      <%= form_for :contact, url: contacts_path, html: { class: "form-inline hp_contact_form "} do |f| %>
+    
+        <%= f.text_field :email, class: "form-control form_placeholder_text", placeholder: "Enter email address..." %>
+
+        <span class="contact_button_homepage"><%= f.submit 'Request More Information', class: 'btn btn-large btn-primary'  %></span>
+      <% end %>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-7 col-md-offset-3">
+    <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#execution" data-toggle="tab">Easy Execution</a></li>
+        <li><a href="#experience" data-toggle="tab">Improve Client Experience</a></li>
+         <li><a href="#revenue" data-toggle="tab">Discover Revenue Opportunities</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<!-- Start Furst -->
+  <div class="tab-pane active" id="execution">
+    <div class="container-fluid big_product_image">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">  
+          <h2>
+            1. Create Digest-Style Newsletters In Minutes
+          </h2>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 big_product_image_border">
+          <%= image_tag 'product_big_ipad.png' %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Start Third Tab -->
+  <div class="tab-pane" id="experience">
+    <div class="container-fluid big_product_image">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>
+            2. Improve Your Client Experience
+          </h2>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="container-fluid good_email">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-1">
+          <h2>Send clients content they want to read</h2>
+          <p>Too many companies send their clients way too much email containing information that doesn't interest them. Using Elevate will improve your understanding of client preferences, the content you use to engage them, and ultimately, your ability to upsell and cross-sell according to their needs.
+          </p>
+
+          <ul>
+            <li><p>Understand client preferences to segment them properly</p></li>
+            <li><p>Identify upsell and cross-sell opportunities</p></li>
+            <li><p>Flag retention risk among current clients</p></li>
+            <li><p>Deliver qualified leads directly to sales teams</p></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <%= image_tag 'good_email.png' %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <hr>
+        </div>
+      </div
+    </div>
+  </div>
+  <!-- end third tab -->
+  
+ <!-- Start Third Tab -->
+  <div class="tab-pane" id="revenue">
+    <div class="container-fluid big_product_image">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2>
+            3. Increase Retention, Up-Selling & Cross-Selling
+          </h2>
+        </div>
+      </div>
+  
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 big_product_image_border">
+        <%= image_tag 'client_reportcard.png' %>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End Second Tab -->
+
+  
+</div>
+<!-- END ALL TABS-->
+
+
+
 
 <div class="container-fluid programs_benefits">
   <div class="row">
