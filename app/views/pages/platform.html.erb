@@ -27,116 +27,56 @@
 <div class="container-fluid third_party_quote">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
-     <h2>“The probability of selling to an existing customer is 60 – 70%. <br />The probability of selling to a new prospect is 5-20%”<br />
+     <h2>“The probability of selling to an existing customer is 60–70%. <br />The probability of selling to a new prospect is 5-20%”<br />
       <span class="third_party_quoter">- Gartner</span></h2>
     </div>
   </div>
 </div>
 
-<div class="container-fluid">
+<!-- Three benefits -->
+<div class="container-fluid programs_benefits">
   <div class="row">
-    <div class="col-md-7 col-md-offset-3">
-    <!-- Nav tabs -->
-      <ul class="nav nav-tabs">
-        <li class="active"><a href="#execution" data-toggle="tab">Easy Execution</a></li>
-        <li><a href="#revenue" data-toggle="tab">Discover Revenue Opportunities</a></li>
-        <li><a href="#experience" data-toggle="tab">Improve Client Experience</a></li>
-      </ul>
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Add Value to Your Client Communications</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 col-md-offset-1">
+      <h3>Personalised</h3>
+      <%= image_tag 'clipboard.png' %> <br/>
+      <p>Improve your client relationships by customizing their marketing experience. Elevate automatically chooses content based on a client's preferences and buying interest to ensure relevance of your communications.
+      </p>
+    </div>
+
+    <div class="col-md-4">
+      <h3>Automated</h3>
+      <%= image_tag 'mobile_optimized.png' %> <br/>
+      <p>Take the work out of email marketing. Running a properly segmented, data-driven email program is nearly impossible without automation. Elevate automates 95% of all work involved to execute on a world-class email strategy.
+      </p>
+    </div>
+
+    <div class="col-md-3">
+      <h3>Data-Driven</h3>
+      <%= image_tag 'track.png' %> <br/>
+      <p>Take your email communications to the next level by creating rich profiles on all clients through their interactions with your emails. Drive qualified leads directly to your sales teams and flag upsell, cross-sell and retention opportunities.
+      </p>
     </div>
   </div>
 </div>
+<!-- End Three benefits -->
 
-<!-- Tab panes -->
-<div class="tab-content">
-<!-- Start Furst -->
-  <div class="tab-pane active" id="execution">
-    <div class="container-fluid big_product_image">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">  
-          <h2>
-            1. Create Digest-Style Newsletters In Minutes
-          </h2>
-          <p><b>Embed products and services among industry news to gauge client buying interest</b></p>
+<div class="container-fluid homepage_signup_background how_works_signup">
+  <div class="col-md-8 col-md-offset-2 homepage_contact_form_area">
+    <%= render 'layouts/messages' %>
+      <%= form_for :contact, url: contacts_path, html: { class: "form-inline hp_contact_form "} do |f| %>
+    
+        <%= f.text_field :email, class: "form-control form_placeholder_text", placeholder: "Enter email address..." %>
 
-          <p>Elevate helps you create digest-style newsletters that make it easy to add value to your client communications. These emails take minutes to create and send and are 95% automated.</p>   
-        </div>
-      </div>
-  
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 big_product_image_border">
-          <%= image_tag 'product_big_ipad.png' %>
-        </div>
-      </div>
-    </div>
+        <span class="contact_button_homepage"><%= f.submit 'Request More Information', class: 'btn btn-large btn-primary'  %></span>
+      <% end %>
   </div>
-
-<!-- Start Second Tab -->
-  <div class="tab-pane" id="revenue">
-    <div class="container-fluid big_product_image">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>
-            2. Increase Retention, Up-Selling & Cross-Selling
-          </h2>
-          <p><b>Give your salespeople the info they need</b> </p> 
-
-          <p>Your sales teams need to know what to talk to your clients about. Elevate automatically notifies them of clients who have expressed interest in company information or related products and services.</p> 
-        </div>
-      </div>
-  
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 big_product_image_border">
-        <%= image_tag 'client_reportcard.png' %>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!-- End Second Tab -->
-
-  <!-- Start Third Tab -->
-  <div class="tab-pane" id="experience">
-    <div class="container-fluid big_product_image">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2>
-            3. Improve Your Client Experience
-          </h2>
-          <p><b>Data driven marketing allows you to improve your client communications</b>  <br/>
-
-          <p>Stop sending your clients content that doesn't matter for them. Elevate makes it easy to understand and segment clients better to improve their relationship with you.</p> 
-        </div>
-      </div>
-    </div>
-  
-    <div class="container-fluid good_email">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-1">
-          <h2>Send clients content they want to read</h2>
-          <p>Too many companies send their clients way too much email containing information that is irrelevant. Using Elevate will improve your understanding of client preferences, the content you use to engage them, and ultimately, your ability to upsell and cross-sell according to their needs.
-          </p>
-
-          <ul>
-            <li><p>Understand client preferences to segment them properly</p></li>
-            <li><p>Identify upsell and cross-sell opportunities</p></li>
-            <li><p>Flag retention risk among current clients</p></li>
-            <li><p>Deliver qualified leads directly to sales teams</p></li>
-          </ul>
-        </div>
-
-        <div class="col-md-4">
-          <%= image_tag 'good_email.png' %>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <hr>
-        </div>
-      </div
-    </div>
-  </div>
-  <!-- end third tab -->
 </div>
-<!-- END ALL TABS-->
 
 <div class="container-fluid faq_section">
   <div class="row">

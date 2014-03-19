@@ -2,8 +2,8 @@ Elevate::Application.routes.draw do
  
   root :to =>  "pages#home"
 
-  match '/platform' => 'pages#platform', :via => [:get]
-  match '/programs' => 'pages#program', :via => [:get]
+  match '/benefits' => 'pages#platform', :via => [:get]
+  match '/how_it_works' => 'pages#program', :via => [:get]
  
 
  resources :contacts, only: [:new, :create]
