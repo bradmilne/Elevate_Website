@@ -71,6 +71,8 @@ gray_jean.png: gray_jean-e842225226c275d7e804f51c9711e7d1.png
 gray_jean/index.png: gray_jean-e842225226c275d7e804f51c9711e7d1.png
 green_checkmark.png: green_checkmark-d608025ff0173458c94683b2240ed217.png
 green_checkmark/index.png: green_checkmark-d608025ff0173458c94683b2240ed217.png
+green_checkmark2.png: green_checkmark2-484c2288a3a326eed031036c1eb1ef22.png
+green_checkmark2/index.png: green_checkmark2-484c2288a3a326eed031036c1eb1ef22.png
 grey_wash_wall.png: grey_wash_wall-0bf6bf999d92641cc68bba7b48824df4.png
 grey_wash_wall/index.png: grey_wash_wall-0bf6bf999d92641cc68bba7b48824df4.png
 grid1.png: grid1-05df80c1848e69bc78457693565f287c.png
@@ -155,6 +157,8 @@ responsive.png: responsive-42a6f68cc42e15f84c503de6e0fc7877.png
 responsive/index.png: responsive-42a6f68cc42e15f84c503de6e0fc7877.png
 sharing.png: sharing-aa3581f98af83955fc374eeca2af319d.png
 sharing/index.png: sharing-aa3581f98af83955fc374eeca2af319d.png
+smart_content.png: smart_content-461368dcad82fb2a8aef3fcf3b6b792d.png
+smart_content/index.png: smart_content-461368dcad82fb2a8aef3fcf3b6b792d.png
 squairy_light.png: squairy_light-fda7cbe4b71ca00010aa6277a08ae735.png
 squairy_light/index.png: squairy_light-fda7cbe4b71ca00010aa6277a08ae735.png
 step7.png: step7-ac0e45f3efcf1a955a9b10fc6a6e953d.png
@@ -173,6 +177,8 @@ two_wide.jpg: two_wide-2f991854f2f10bbea97fb98168206dcc.jpg
 two_wide/index.jpg: two_wide-2f991854f2f10bbea97fb98168206dcc.jpg
 two_wide_2.jpg: two_wide_2-2e0321ef9da3b03b9e2179cc70cde186.jpg
 two_wide_2/index.jpg: two_wide_2-2e0321ef9da3b03b9e2179cc70cde186.jpg
+view_all_canopy_club.jpg: view_all_canopy_club-a29a890725d51153b160cef91d760890.jpg
+view_all_canopy_club/index.jpg: view_all_canopy_club-a29a890725d51153b160cef91d760890.jpg
 wavegrid.png: wavegrid-75655454a9ab86b5734217d5a492f623.png
 wavegrid/index.png: wavegrid-75655454a9ab86b5734217d5a492f623.png
 whitey.png: whitey-012aeb3e2c10fb0ededf27679e379470.png
@@ -181,8 +187,8 @@ wide_bg.jpg: wide_bg-558d39fe9d821e486cc32a464f305819.jpg
 wide_bg/index.jpg: wide_bg-558d39fe9d821e486cc32a464f305819.jpg
 application.js: application-b49eeeb2be3ff582727b81b5b67ac9a6.js
 application/index.js: application-b49eeeb2be3ff582727b81b5b67ac9a6.js
-application.css: application-51f40d59ebb791b8e77d0798a383a13f.css
-application/index.css: application-51f40d59ebb791b8e77d0798a383a13f.css
+application.css: application-b19f5741b4ef9eb8438fe1e8ab57727a.css
+application/index.css: application-b19f5741b4ef9eb8438fe1e8ab57727a.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 twitter/glyphicons-halflings-regular.eot: twitter/glyphicons-halflings-regular-a976b4f46980969d9792e0ff9f3afc17.eot
