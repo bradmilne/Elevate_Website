@@ -41,5 +41,31 @@
 	font-size: 28px;
 	text-align: center;
 	line-height: 1.4em;
+}
 
+.program_content {
+	text-align: center;
+}
+
+.program_content h2 {
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Merriweather', serif;
+}
+
+.program_content p {
+	font-size: 16px;
+	color: #5C5858;
+	line-height: 1.2em;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	max-width: 800px;
+}
+
+.program_content img {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
