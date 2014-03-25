@@ -93,7 +93,7 @@
         <div id="related">
           <h4>Some Other Posts You Might Like</h5><br />
           <ul class="posts">
-          {% for post in site.related_posts limit:10 %}
+          {% for post in site.posts limit:10 %}
             <li style="list-style-type: none;"><a style="text-decoration: underline;" href="/blog{{ post.url }}">{{ post.title }}</a></li><br />
           {% endfor %}
           </ul>
