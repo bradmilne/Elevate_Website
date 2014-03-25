@@ -1,0 +1,39 @@
+.what_we_do {
+	padding-top: 28px;
+}
+
+.what_we_do h3 {
+	color: #A6001B;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.what_we_do p {
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+.blog_post_title {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.blog_post_title h2 {
+	color:#A6001B;
+	font-size: 26px;
+	line-height: 1.4em;
+}
+
+.blog_post_body p {
+	font-size: 20px;
+	line-height: 1.6em;
+	font-family: "Merriweather",Georgia,"Times New Roman",serif;
+}
+
+.posts {
+	margin-left: -40px;
+}
+
+.blog_follow_us li {
+	padding-right: 15px;
+}

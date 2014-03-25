@@ -1,0 +1,574 @@
+.navbar {
+	background-color: #fff !important;
+	border-bottom: #fff !important;
+	padding-left: 80px;
+	padding-right: 80px;
+	@media (max-width: 480px) {
+    padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
+.navbar img {
+	padding-top: 20px;
+}
+
+.navbar ul li {
+	padding-right: 16px;
+	font-size: 20px;
+	color: #25383C;
+	padding-top: 20px;
+}
+
+.navbar ul li a {
+	color: #25383C !important;
+	font-style: bold !important;
+}
+
+.contact_link {
+	padding-top: 20px !important;
+}
+
+.contact_link a {
+	padding-top: 20px;
+	color: #A6001B !important;
+}
+
+
+ 
+.hero_background {
+	background: #E0EEEE;
+	background-color: #E0EEEE;
+	min-height: 420px;
+}
+
+.hero_area {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	@media (max-width: 480px) {
+    padding-left: 0px;
+	  padding-right: 0px;
+	}
+}
+
+.hero_area h1 {
+	color: #25383C;
+	line-height: 1.2em;
+}
+
+.hero_area p {
+  font-size: 18px;
+	color: #25383C;
+	line-height: 1.2em;
+}
+
+.hero_p {
+  margin-top: 40px;
+	max-width: 600px;
+}
+
+.hero_callout {
+	color: #A6001B;
+	margin-top: 20px;
+}
+
+.hero_image {
+	margin-top: 0px;
+}
+
+.cta_buttons button {
+	@media (max-width: 480px) {
+    margin-top: 10px;
+	}
+}
+
+.btn.btn-primary {
+  background-color: #428bca;
+}
+
+.second_statement {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+}
+
+.second_statement h2 {
+	text-aign:center;
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.second_statement p {
+	font-size: 16px;
+	color: #5C5858;
+	line-height: 1.2em;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.second_statement hr {
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.first_quote_background {
+	background-color: #f7f7f7;
+	background: #f7f7f7;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	min-height: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.first_quote {
+	text-align: center;
+}
+
+.chamandy_image {
+	text-align: left;
+}
+
+.chamandy_quote {
+	padding-top: 20px;
+}
+
+.chamandy_quote p {
+	font-size: 18px;
+}
+
+.chamandy {
+	font-size: 16px;
+	color: #575757;
+	margin-top: 15px;
+}
+
+.quote_mark {
+	font-size: 22px;
+	color: #A6001B;
+}
+
+.third_statement {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.third_statement h2 {
+	text-aign:center;
+	color: #A6001B;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.benefit_text {
+	margin-bottom: 40px;
+}
+
+.benefit_text h3 {
+	color: #25383C;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.benefit_text p {
+	color:  #404040;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.benefit_text li {
+	list-style-image: image-url("green_checkmark.png");
+}
+
+.benefit_text ul {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.benefit_text ul p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	color: #575757;
+}
+
+.benefit_spacing {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.benefit_center {
+	text-align: center;
+}
+
+.crm_info {
+	margin-bottom: -35px;
+}
+
+.marketo_quote {
+	background: #25383C;
+	background-color: #25383C;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.marketo_quote p {
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+}
+
+.marketo {
+	font-size: 18px;
+}
+
+.home_page_contact {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.home_page_contact h2 {
+	color: #A6001B;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.home_page_contact p {
+	font-size: 16px;
+	padding-bottom: 40px;
+	color: #575757;
+}
+
+.home_page_button {
+	text-align: center;
+}
+
+.button_text {
+	font-size: 24px;
+	@media (max-width: 480px) {
+    font-size: 16px;
+	}
+}
+
+.footer_width {
+	padding: 40px 40px 40px 40px;
+	background: #f7f7f7;
+	background-color: #f7f7f7;
+}
+
+footer {
+	min-height: 100px;
+}
+
+footer h2 {
+	color: #404040;
+	text-decoration: none;
+}
+
+footer p {
+	color: #737373;
+	text-decoration: none;
+}
+
+.quick_links {
+	padding-top: 40px;
+}
+
+.quick_links li {
+	list-style-type: none;
+	color: #737373;
+	margin-top: 15px;
+	@media (max-width: 480px) {
+	  margin-top: 5px;
+	}
+}
+
+.quick_links li a {
+	color: #737373;
+}
+
+.follow_us ul {
+	display: block;
+}
+.follow_us li {
+	list-style-type: none;
+	float: left;
+}
+
+.follow_us li a{
+	display: block;
+	width: 20px;
+}
+
+.copyright_area {
+	background: #333333;
+	background-color: #333333;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.copyright p {
+	color: #fff;
+	font-size: 12px;
+}
+
+
+.product_header {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	background: #25383C;
+	background-color: #25383C;
+}
+
+.product_header h2 {
+	color: #fff;
+	line-height: 1.2em;
+}
+
+
+.platform_description p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+.platform_page_header {
+	background: url(/assets/peeps.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.how_works h2 {
+	color: #A6001B;
+}
+
+.how_works p {
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+.platform_page_header h1 {
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 36;
+}
+
+.platform_page_header p {
+	font-size: 18px;
+	color: #f7f7f7;
+	line-height: 1.2em;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.elevate_quote {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.big_product_image {
+	text-align: center;
+}
+
+.big_product_image img {
+	margin-top: 10px;
+}
+
+.platform_page_divider {
+	background: #E0EEEE;
+	background-color: #E0EEEE;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.platform_page_divider h2 {
+	color: #25383C;
+}
+
+.good_email p {
+	font-size: 18px;
+	color: #5C5858;
+	line-height: 1.4em;
+	padding-top: 10px;
+}
+
+.benefit_text p {
+	color:  #404040;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.good_email {
+	padding-bottom: 30px;
+}
+
+.good_email li {
+	list-style-image: image-url("green_checkmark.png");
+}
+
+.good_email ul {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.good_email ul p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	color: #575757;
+}
+
+.programs_page_top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.programs_page_top h2 {
+	font-size: 30px;
+	color: #34495e;
+}
+
+.programs_benefits {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.programs_benefits h2 {
+	padding-bottom: 10px;
+	font-size: 30px;
+	color: #A6001B;
+}
+
+.programs_benefits h3 {
+	color: #25383C;
+	padding-bottom: 20px;
+}
+
+.programs_benefits p {
+	font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	color: #575757;
+}
+
+.program_checklist {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.program_checklist h2 {
+	padding-bottom: 10px;
+	font-size: 30px;
+	color: #A6001B;
+	text-align: center
+}
+
+
+.program_checklist h3 {
+	color: #25383C;
+	padding-bottom: 20px;
+}
+
+.program_checklist p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	color: #575757;
+}
+
+.program_checklist li {
+	list-style-image: image-url("green_checkmark.png");
+}
+
+.program_checklist ul {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.program_checklist ul p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	color: #575757;
+}
+
+.contact_section {
+	margin-bottom: 40px;
+}
+
+.contact_section h3 {
+	color: #25383C;
+	padding-bottom: 20px;
+	font-size: 28px;
+}
+
+.contact_section p {
+  font-size: 18px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #575757;
+	max-width: 500px;
+}
+
+.contact_form {
+	min-height: 600px;
+
+}
+
+.contact_form_area {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.contact_form form {
+	min-height: 400px;
+	margin-top: 20px;
+
+}
+
+.contact_form label {
+	color: #25383C;
+	font-size: 20px;
+	margin-right: 15px;
+	width: 100px;
+}
+
+.contact_form input {
+	color: #25383C;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+
+.button_text {
+	  width: 200px;
+	  text-align: right;
+	}
